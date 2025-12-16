@@ -1,6 +1,6 @@
 package com.td.loan_service.model;
 
 // enum for loan status
-enum Level {
+enum LoanStatus {
     SUBMITTED, REVIEW, APPROVED, REJECTED, FUNDED
 }
