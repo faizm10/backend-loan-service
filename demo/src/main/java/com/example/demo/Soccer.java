@@ -5,7 +5,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
-@Entity
+@Entity // tells hibernate to create the table with the following details
 public class Soccer {
 
     // generates id, increments by one
